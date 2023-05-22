@@ -1,5 +1,5 @@
 {
-  "name": "propeldata",
+  "name": "propelify",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.14",
+    "@propeldata/react-counter": "^0.26.8",
+    "@propeldata/react-leaderboard": "^0.5.4",
+    "@propeldata/react-time-series": "^0.30.14",
+    "axios": "^1.4.0",
+    "graphql": "^16.6.0",
     "next": "13.4.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
