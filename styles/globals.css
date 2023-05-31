@@ -6,31 +6,6 @@
   padding: 0;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem 2rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-}
-
-.navbar-brand a {
-  font-size: 1.5rem;
-  color: #333333;
-  text-decoration: none;
-}
-
-.navbar-menu a {
-  margin-left: 1.5rem;
-  color: #333333;
-  text-decoration: none;
-}
-
-.navbar-menu a:hover {
-  color: #0070f3;
-}
-
 .container {
   max-width: 800px;
   margin: 0 auto;

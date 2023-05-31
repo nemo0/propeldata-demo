@@ -26,17 +26,6 @@ export default function Home() {
 
   return (
     <div>
-      <nav>
-        <div className='navbar-brand'>
-          <Link href='/'>Propelify</Link>
-        </div>
-        <div className='navbar-menu'>
-          <Link href='/features'>Features</Link>
-          <Link href='/pricing'>Pricing</Link>
-          <Link href='/about'>About</Link>
-          <Link href='/contact'>Contact</Link>
-        </div>
-      </nav>
       <div className='container'>
         <div className='counter'>
           <CounterComponent />

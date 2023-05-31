@@ -63,7 +63,10 @@ function LeaderboardComponent() {
   return (
     <>
       {value ? (
-        <Leaderboard rows={value.metric.leaderboard.rows} />
+        <Leaderboard
+          rows={value.metric.leaderboard.rows}
+          headers={value.metric.leaderboard.headers}
+        />
       ) : (
         <div>Loading...</div>
       )}
