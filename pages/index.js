@@ -1,6 +1,5 @@
 // Path: pages\index.js
 
-import Link from 'next/link';
 import axios from 'axios';
 import { useEffect } from 'react';
 import { useAccessToken } from '../context/accessTokenContext';
